@@ -1,13 +1,11 @@
-# EasyGoShop Marketing Analysis
-
-> For more of my projects and data journey, visit my [Portfolio](https://ruizdelcarmen.me/).
+# EasyGoShop Marketing Analysis （2023-2025）
 
 ## Table of Contents
 
 - [Project Background](#project-background)
 - [Executive Summary](#executive-summary)
 - [Insights Deep-Dive](#insights-deep-dive)
-    - [Sales Trends and Growth Rates](#sales-trends-and-growth-rates)
+    - [Conversion Rates and Trends](#sales-trends-and-growth-rates)
     - [Key Product Performance](#key-product-performance)
     - [Customer Growth and Repeat Purchase Trends](#customer-growth-and-repeat-purchase-trends)
     - [Loyalty Program Performance](#loyalty-program-performance)
@@ -18,20 +16,21 @@
 
 ***
 
+<a name="project-background"></a>
 ## Project Background {#project-background}
 
-ByteX, a global e-commerce company founded in 2018, specializes in selling popular electronics like Apple, Samsung, and ThinkPad products. I'm partnering with the Head of Operations to extract insights and deliver recommendations to improve performance across sales, product, and marketing teams.
+EasyGoShop, an online retail business based on Europe, is facing reduced customer engagement and conversion rates despite launching several new online marketing campaigns. I'm partnering with the Marketing Manager and Customer Experience Manager to extract insights and deliver recommendations to improve performance across sales, product, and marketing teams.
 
 ## Executive Summary {#executive-summary}
 
-ByteX's sales analysis of 108k records across 2019-2022 shows annual revenue stabilizing at around $7 million, nearing pre-COVID levels, with North America and EMEA contributing 80% of sales. Monitors and AirPods account for 60% of revenue, though customer retention is a concern as unique and repeat purchase rates have declined by 15% and 10%, respectively. ByteX can benefit from expanding top product lines, optimizing bundling, and enhancing loyalty programs to increase customer lifetime value. Targeted growth in APAC and LATAM, along with improvements to digital channels like the mobile app, will strengthen ByteX's market position and drive sustainable growth.
+EasyGoShop's 2023–2025 customer behavior and marketing analysis shows a high volatility in engagement and conversion rates with January yielding the highest conversion rate of 17.31% driven by seasonal purchases of ski boots and October being the worst at 6.15%. The Hockey Sticks product was the most successful, with a high of 57.14% conversion in December, while Swim Goggles performed poorly. Geographically, Germany and the Netherlands lead with 15% conversion, while Spain, Belgium, and France trail at 5%, which also identifies areas of potential localization opportunity. The blog site is viewed extensively but has poor user engagement, though video content holds the highest like-to-view ratio. Campaign analysis shows Campaign 15 performing exceptionally well compared to others, whereas Campaigns 1 and 10 did not generate engagement. Customer sentiment is generally positive (840 of 1,300 reviews), but mixed feedback gives a distinct call for service improvement. EasyGoShop can drive expansion by entering underpenetrated European markets, localizing campaigns, highlighting top-performing products seasonally, and investing in short-form video marketing campaigns on social media to spur renewed engagement.
 
-![ByteX Dataset ERD](Data/visualizations/ecommerce_ERD.webp)
-ByteX Dataset ERD
+![EasyGoShop Dataset ERD](Visualizations/ERD3.png)
+EasyGoShop Dataset ERD
 
 ## Insights Deep-Dive {#insights-deep-dive}
 
-### Sales Trends and Growth Rates {#sales-trends-and-growth-rates}
+### Conversion Rates and Trends {#sales-trends-and-growth-rates}
 
 - ByteX averages $7 million in annual sales with 27,000 orders per year.
 - Sales surged in 2020 due to the pandemic but declined by 45% by 2022, returning to just above pre-pandemic levels as physical stores reopened.

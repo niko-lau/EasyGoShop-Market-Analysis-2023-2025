@@ -6,13 +6,10 @@
 - [Executive Summary](#executive-summary)
 - [Insights Deep-Dive](#insights-deep-dive)
     - [Conversion Rates and Trends](#Conversion-Rates-and-Trends)
-    - [Key Product Performance](#key-product-performance)
-    - [Customer Growth and Repeat Purchase Trends](#customer-growth-and-repeat-purchase-trends)
-    - [Loyalty Program Performance](#loyalty-program-performance)
-    - [Sales by Platforms & Channels](#sales-by-platforms--channels)
-    - [Refund Rate Trends](#refund-rate-trends)
-- [Recommendations](#recommendations)
-- [Assumptions and Caveats](#assumptions-and-caveats)
+    - [Customer Engagement](#Customer-Engagement)
+    - [Customer Feedback Analysis](#Customer-Feedback-Analysis)
+- [Recommendations](#Recommendations)
+- [Clarifying Questions, Assumptions, and Caveats](#assumptions-and-caveats)
 
 ***
 
@@ -22,21 +19,24 @@
 
 EasyGoShop, an online retail business based on Europe, is facing reduced customer engagement and conversion rates despite launching several new online marketing campaigns. I'm partnering with the Marketing Manager and Customer Experience Manager to extract insights and deliver recommendations to improve performance across sales, product, and marketing teams.
 
-
   
 <a name="executive-summary"></a>
 ## Executive Summary
 
 EasyGoShop's 2023–2025 customer behavior and marketing analysis shows a high volatility in engagement and conversion rates with January yielding the highest conversion rate of 17.31% driven by seasonal purchases of ski boots and October being the worst at 6.15%. The Hockey Sticks product was the most successful, with a high of 57.14% conversion in December, while Swim Goggles performed poorly. Geographically, Germany and the Netherlands lead with 15% conversion, while Spain, Belgium, and France trail at 5%, which also identifies areas of potential localization opportunity. The blog site is viewed extensively but has poor user engagement, though video content holds the highest like-to-view ratio. Campaign analysis shows Campaign 15 performing exceptionally well compared to others, whereas Campaigns 1 and 10 did not generate engagement. Customer sentiment is generally positive (840 of 1,300 reviews), but mixed feedback gives a distinct call for service improvement. EasyGoShop can drive expansion by entering underpenetrated European markets, localizing campaigns, highlighting top-performing products seasonally, and investing in short-form video marketing campaigns on social media to spur renewed engagement.
 
-![EasyGoShop Dataset ERD](Visualizations/ERD3.png)
+![EasyGoShop Dataset ERD](Visualizations/ERD.png)
 EasyGoShop Dataset ERD
 
+<br><br>
 
+![Overview](Visualizations/Overview.png)
+Conversion Rates Dashboard
 
-   
+<br>
+
 <a name="insights-deep-dive"></a>
-## Insights Deep-Dive {#insights-deep-dive}
+## Insights Deep-Dive
 <a name="Conversion-Rates-and-Trends"></a>
 ### Conversion Rates and Trends
 #### Decreased Conversion Rates
@@ -53,10 +53,10 @@ Hockey Stick has the highest conversion rates at 15.46% of all time, driven sign
 #### Highest and Lowest Performing Countries
 Germany and the Netherlands recorded the highest conversion rates of 15% showing superb market penetration as well as successful targeting strategies in these countries. Spain, Belgium, and France, on the other hand, recorded the lowest conversion rate at a paltry 5%, which could also indicate local engagement or marketing failings. Further, most countries are still untouched by EasyGoShop, indicating immense opportunities for geographic growth as well as transactional expansion in the future.
 
-![Conversion Rates Dashboard](Visualizations/Conversion.png)
+![Conversion Rates Dashboard](Visualizations/Conversion_Rates_Dashboard.png)
 Conversion Rates Dashboard
-
-
+<br>
+<a name="Customer-Engagement"></a>
 ### Customer Engagement
 #### Declining Views
 Views were most elevated in February and July but dropped from August and beyond, indicating lesser audience engagement during the second half of the year.
@@ -70,11 +70,11 @@ Blog content drove the most views, especially in April and July, while social me
 #### Campaign Performance
 Campaign 15 produced the biggest amount of views and likes, due to the highest amount of campaigns and specific promotion strategies. Campaign 1 and Campaign 10 resulted low views and likes even with a certain amount of campaigns, indicating a change for campaign strategies.
 
-![Social Media Details Dashboard](Visualizations/SocialMedia.png)
+![Social Media Details Dashboard](Visualizations/Social_Media_Details_Dashboard.png)
 Social Media Details Dashboard
 
 
-
+<a name="Customer-Feedback-Analysis"></a>
 ### Customer Feedback Analysis
 #### Customer Ratings Distribution
 The majority of customer reviews are in the higher ratings, with 431 reviews at 4 stars and 409 reviews at 5 stars, indicating overall positive feedback. Lower ratings (1-2 stars) account for a smaller proportion, with 80 reviews at 1 star and 153 reviews at 2 stars.
@@ -85,13 +85,13 @@ Positive sentiment dominates with 840 reviews, reflecting a generally satisfied 
 #### Opportunity for Improvement
 The presence of mixed positive and mixed negative attitudes suggests that it may be possible to turn those mixed experiences more into positively labeled ones, perhaps enhancing overall ratings. Addressing specifically the concerns listed in mixed reviews can enhance customer satisfaction.
 
-![Customer Reviews Dashboard](Visualizations/Reviews.png)
+![Customer Reviews Dashboard](Visualizations/Customer_Reviews_Dashboard.png)
 Customer Reviews Dashboard
 
   
+***
 
-
-
+<a name="Recommendations"></a>
 ## Recommendations
 
 ### Increase Conversion Rates
@@ -119,6 +119,7 @@ Offer some promotions like coupon and gifts to Incentivize satisfied customers t
 
 ***
 
+<a name="assumptions-and-caveats"></a>
 ## Clarifying Questions, Assumptions, and Caveats
 ### Questions for Stakeholders Prior to Project Advancement
 - Purchase and Drop-off in the customers table
